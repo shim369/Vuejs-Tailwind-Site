@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card-item { 
+  @apply break-words hover:opacity-75 cursor-pointer;
+}
+.card-item .card-inner {
+  @apply box-border bg-white p-4 w-11/12 m-auto;
+}
+.card-item h3 {
+  @apply my-2 font-bold;
+} 
