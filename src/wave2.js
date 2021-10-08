@@ -38,7 +38,7 @@ function draw() {
   context.clearRect(0, 0, width, height);
 
   //波を描画
-  drawWave('#094581', 1, 3, 0);
+  drawWave('#fff', 1, 3, 0);
   
   // Update the time and draw again
   draw.seconds = draw.seconds + .009;
