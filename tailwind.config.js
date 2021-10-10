@@ -8,10 +8,10 @@ module.exports = {
         seaBlue: '#1395ac',
         skyBlue: '#094581',
       },
-      backgroundImage: theme => ({
+      backgroundImage: {
         'header-texture': "url('../images/bg_01-2.jpg')",
         'footer-texture': "url('../images/bg_02-2.jpg')",
-      }),
+      },
       height: {
         waveHight: '90px',
         headerHight: '500px',
@@ -31,19 +31,19 @@ module.exports = {
     function({ addUtilities }) {
       const newUtilities = {
         ".text-shadow": {
-          textShadow: "0px 2px 3px darkgrey"
+          textShadow: "0px 2px 3px #ccc"
         },
         ".text-shadow-md": {
-          textShadow: "0px 3px 3px darkgrey"
+          textShadow: "0px 3px 3px #ccc"
         },
         ".text-shadow-lg": {
-          textShadow: "0px 5px 3px darkgrey"
+          textShadow: "0px 5px 3px #ccc"
         },
         ".text-shadow-xl": {
-          textShadow: "0px 7px 3px darkgrey"
+          textShadow: "0px 7px 3px #ccc"
         },
         ".text-shadow-2xl": {
-          textShadow: "0px 10px 3px darkgrey"
+          textShadow: "0px 10px 3px #ccc"
         },
         ".text-shadow-none": {
           textShadow: "none"

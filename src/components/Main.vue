@@ -6,7 +6,7 @@
         <div class="w-10/12 m-auto">
           <VueSlickCarousel v-bind="settings">
                   <div v-for="item in items" v-bind:key="item.index" class="card-item">
-                    <div class="card-inner">
+                    <div class="card-inner border-solid border-2 border-gray-200">
                       <img :src="item.img" :alt="item.name"/>
                       <h3>{{item.name}}</h3>
                       <p>{{item.txt }}</p>
@@ -57,7 +57,7 @@ export default {
             name: '吉崎食堂 久茂地本店',
             txt: 'texttexttexttexttexttexttexttexttexttexttext',
           }
-        ]
+        ],
       }
     },
 }
