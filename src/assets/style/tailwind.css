@@ -11,4 +11,16 @@
 }
 .card-item h3 {
   @apply my-2 font-bold;
-} 
+  background: #1395ac;
+  padding: 6px 9px;
+  line-height: 1;
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  top: -18px;
+  margin-bottom: 0;
+}
+.card-item p {
+  position: relative;
+  top: -10px;
+}
