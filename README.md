@@ -1,4 +1,4 @@
-# okimeshi
+# umi
 
 ## Project setup
 ```
