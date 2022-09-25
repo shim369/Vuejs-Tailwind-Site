@@ -44,7 +44,7 @@ export default {
         items: [
           { 
             img: require('@/assets/images/naha/001/001.jpg'),
-            name: '吉崎食堂 久茂地本店',
+            name: '吉崎食堂',
             txt: '沖縄家庭料理と元祖居酒屋メニューが楽しめます',
             a: 'https://yura-net.com/',
           },
