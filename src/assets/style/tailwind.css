@@ -13,6 +13,11 @@ h1 {
 h3,h2,p {
   font-family: sans-serif;
 }
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
 .card-item { 
   @apply break-words hover:opacity-75 cursor-pointer;
 }
@@ -35,6 +40,9 @@ h3,h2,p {
   top: -10px;
 }
 @media(max-width:768px) {
+  main {
+    padding: 50px 0;
+  }
   .slick-slide {
     width: 100% !important;
     float: none !important;

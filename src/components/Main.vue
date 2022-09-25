@@ -1,8 +1,8 @@
 <template>
     <main>
-      <section id="concept" class="p-12 bg-white">
+      <section id="concept" class="bg-white">
         <h2 class="text-center text-3xl mb-4 tracking-widest text-seaBlue font-bold">沖縄の飲食店を応援する</h2>
-        <p class="text-center text-lg leading-8 text-seaBlue mb-6">新型コロナウィルスによって多くの飲食店が大きなダメージを受けました。<br>そんな中でも一生懸命、お客さんに美味しい料理を提供してくれるお店を応援したいと考えています。</p>
+        <p class="text-center text-lg leading-8 mb-10">新型コロナウィルスによって多くの飲食店が大きなダメージを受けました。<br>そんな中でも一生懸命、お客さんに美味しい料理を提供してくれるお店を応援したいと考えています。</p>
         <div class="w-12/12 m-auto">
           <VueSlickCarousel v-bind="settings">
                   <div v-for="item in items" v-bind:key="item.index" class="card-item">
