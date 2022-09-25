@@ -24,3 +24,10 @@
   position: relative;
   top: -10px;
 }
+@media(max-width:768px) {
+  .slick-slide {
+    width: 100% !important;
+    float: none !important;
+    margin-bottom: 20px;
+  }
+}
