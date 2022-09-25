@@ -6,7 +6,9 @@
 	font-family: 'RammettoOne-Regular';
 	src: url('../font/RammettoOne-Regular.ttf');
 }
-
+#app {
+  overflow-x: hidden;
+}
 h1 {
   font-family: 'RammettoOne-Regular';
 }
@@ -42,10 +44,5 @@ main {
 @media(max-width:768px) {
   main {
     padding: 50px 0;
-  }
-  .slick-slide {
-    width: 100% !important;
-    float: none !important;
-    margin-bottom: 20px;
   }
 }
